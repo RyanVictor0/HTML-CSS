@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+p{
+    text-align: justify;
+}
+
+main{
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  margin: auto;
+  border-radius: 5px;
+  padding:10px;
+  box-shadow: 5px 5px 10px #310703 ;
+
+}
+
+body{background-image:linear-gradient(to right,#801006,#CC2314); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+} 
+h1{color: #008080;
+    text-align: center;
+    text-shadow: 1px 1px #00303091 ; 
+    background-color: #3a2603;
+    font-family: ;
+
+}
+h2{ color: #3a2603;
+  text-align: center;
+  font-family:Love ;
+  src: url('Pacifico-Regular.ttf');
+ } {
+  font-family:Pacifico ;
+  src: url('Pacifico-Regular ');
+ }
+}
+img{ line-clamp: 20px;
+ 
+}

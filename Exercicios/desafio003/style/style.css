@@ -1,0 +1,161 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('/style/idroid.otf') ;
+    font-weight: Normal;
+} 
+
+@font-face {
+    font-family: 'mf';
+    src: url('/style/monofonto\ rg.otf');
+} 
+@font-face {
+    font-family: 'fonte1';
+    src: url('/style/novamono.ttf');
+}
+
+
+::root {
+
+    --cor0: #a3ebc3;
+    --cor1: #3B8C6E;
+    --cor2: #1E5959;
+    --cor3: #0B2B40;
+    --cor4: #FA5701; 
+   
+    
+
+} 
+ 
+ 
+body{
+    background-color: rgb(255, 255, 255); 
+    
+    
+}
+
+header > h1 {
+    text-align: center; 
+    font-size: 3.0em; 
+    color: white; 
+    font-family: 'android'; 
+    font-size: 25px;
+    text-shadow: 2px 2 px 0px black;
+
+    
+}
+   
+ 
+main h2 {
+    color:#1E5959; 
+    font-family: 'mf'; 
+    font-size: 30px;
+} 
+
+nav {
+    background-color: #0B2B40;
+    padding: 10px; 
+    font-weight: bold;
+
+   
+} 
+nav> a:hover{
+    background-color: #3B8C6E;
+} 
+nav > a {
+    color: white;
+    padding: 15px;
+    text-decoration: none; 
+    transition-duration:0.5s ;
+}
+
+main h1 {
+   font-family:'mf'; 
+   color: #1E5959; 
+   font-size: 30px;  
+   
+} 
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+p{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black; 
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 25px;
+} 
+header{
+    min-height: 150px; 
+    background-image: linear-gradient(to bottom, rgb(1, 41, 1) , rgb(0, 75, 0)
+     ); 
+    text-align: center; 
+    padding-top: 40px;
+} 
+
+header h1 { 
+    font-size: 45px; 
+    text-shadow: 2px 2px 1px black;
+
+    margin-bottom: 20px;
+}
+footer p{
+    background-color: #0B2B40; 
+    color: #a3ebc3;
+    text-align: center; 
+   
+} 
+main img{
+    width: 100%;
+} 
+main img.pequena {
+    width: 50%; 
+    display: block; 
+    margin: auto;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px; 
+    margin: auto; 
+    padding: 20px; 
+    color: #000000; 
+    box-shadow: 0px 0px 10px rgb(134, 130, 130); 
+    margin-bottom: 25px;
+} 
+
+aside{
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #a3ebc3;
+    
+} 
+aside > ul {
+    list-style-position: inside; 
+    columns: 2;
+} 
+aside h3 {
+    background-color: #0B2B40; 
+    text-align: center; 
+    color: white;
+} 
+div.video{
+   
+    background-color: #1E5959; 
+    margin:0px -20px 30px -20px; 
+    padding: 20px;
+    position: relative; 
+    padding-bottom: 59%;
+}
+div.video> iframe{ 
+    position: absolute; 
+    top: 5%; 
+    left: 5%;
+    width: 90%; 
+    height: 90%;
+
+}
